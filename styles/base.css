@@ -228,17 +228,25 @@ header {
 
 /* THIRD CONTENT SECTION (HOME) */
 
-.we-section-on-start-page-wrapper {
+.wrapper-of-wrapper-we-section {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper {
+    max-width: 1250px;
     width: 100%;
     height: 700px;
 
     display: flex;
 }
 
-.we-section-on-start-page-wrapper .we-section {
-    width: 50%;
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section {
+    width: 100%;
 
-    padding: 100px 100px;
+    padding-right: 50px;
 
     display: flex;
     flex-direction: column;
@@ -246,7 +254,7 @@ header {
     gap: 25px;
 }
 
-.we-section-on-start-page-wrapper .we-section h1 {
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section h1 {
     z-index: -1;
 
     position: relative;
@@ -257,21 +265,21 @@ header {
     color: rgba(163, 163, 163, 0.288);
 }
 
-.we-section-on-start-page-wrapper .we-section h2 {
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section h2 {
     font-size: 2.5rem;
 }
 
-.we-section-on-start-page-wrapper .we-section h3 {
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section h3 {
     font-size: 1.5rem;
 
     color: rgba(0, 69, 219, 0.897);
 }
 
-.we-section-on-start-page-wrapper .we-section p {
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section p {
     font-size: 1.3rem;
 }
 
-.we-section-on-start-page-wrapper .we-section a {
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section a {
     width: fit-content;
 
     padding: 10px 10px;
@@ -284,6 +292,6 @@ header {
     color: rgba(0, 69, 219, 0.897);
 }
 
-.we-section-on-start-page-wrapper img {
-    width: 50%;
+.wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper img {
+    width: 100%;
 }
