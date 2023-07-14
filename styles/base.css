@@ -226,7 +226,7 @@ header {
     font-size: 1rem;
 }
 
-/* THIRD CONTENT SECTION (HOME) */
+/* THIRD CONTENT SECTION -We-Section- (HOME) */
 
 .wrapper-of-wrapper-we-section {
     width: 100%;
@@ -294,4 +294,99 @@ header {
 
 .wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper img {
     width: 100%;
+}
+
+/* QUARTER CONTENT SECTION -Experience-section- */
+
+.wrapper-of-wrapper-experience-section {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../quarter-content-section-items/background/metal-frame-house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section {
+    max-width: 1250px;
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+    color: whitesmoke;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-info {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-info h1 {
+    position: relative;
+    top: 70px;
+
+    font-size: 5.5rem;
+
+    color: rgba(163, 163, 163, 0.288);
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-info h2 {
+    z-index: 1;
+
+    font-size: 2.5rem;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-info p {
+    font-size: 1.2rem;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-icons {
+    width: 100%;
+
+    display: flex;
+    gap: 60px;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-icons .experience-icon {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    font-size: 1rem;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-icons .experience-icon i {
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 5rem;
+
+    color: rgb(27, 190, 255);
+
+    border: 2px solid rgb(27, 190, 255);
+    border-radius: 50%;
 }
