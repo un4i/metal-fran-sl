@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section-title {
+            position: relative;
+
+            padding-top: 52px;
+        }
+
+        .section-title .section-title--overlapped-title {
+            position: absolute;
+            top: 0;
+
+            text-transform: uppercase;
+
+            font-size: 5.5rem;
+
+            color: rgba(163, 163, 163, 0.288);
+        }
+
+        .section-title .section-title--title {
+            position: relative;
+            z-index: 2;
+            
+            font-size: 2.5rem;
+
+            color: black;
+        }
+
+        .section-title.white-version .section-title--title {
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-title white-version">
+        <h1 class="section-title--overlapped-title">
+            *nosotros
+        </h1>
+        <h2 class="section-title--title">
+            Quiénes somos y que hacemos
+        </h2>
+    </div>
+</body>
+</html>
