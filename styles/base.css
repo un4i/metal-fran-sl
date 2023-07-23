@@ -428,3 +428,82 @@ header {
 .section-title.white-version .section-title--title {
     color: whitesmoke;
 }
+
+/* FIFTH SECTION    QUALITY COMPANY SECTION */
+
+.quality-company-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 600px;
+}
+
+.quality-company-wrapper .quality-company-section {
+    width: 100%;
+    max-width: 1250px;
+}
+
+.quality-company-wrapper .quality-company-section .title-quality-company-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+
+    font-size: 1.3rem;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .logo-quality {
+    padding: 20px;
+    
+    font-size: 2rem;
+    color: whitesmoke;
+    
+    background-color: #1A58DF;
+
+    border-radius: 50%;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .logo-quality:hover {
+    padding: 20px;
+    
+    font-size: 2rem;
+    color: rgb(27, 190, 255);
+    
+    background-color: black;
+
+    border-radius: 50%;
+
+    transition: 1000ms;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .quality h1 {
+    font-size: 1.5rem;
+}
+
+.quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .quality p {
+    
+}
