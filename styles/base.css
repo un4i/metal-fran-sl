@@ -241,9 +241,8 @@ header {
 }
 
 .wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper {
-    max-width: 1250px;
     width: 100%;
-    height: 700px;
+    min-height: 700px;
 
     display: flex;
     gap: 50px;
@@ -256,6 +255,8 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 25px;
+
+    padding-left: 60px;
 }
 
 .wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section h3 {
@@ -362,6 +363,16 @@ header {
     gap: 15px;
 
     font-size: 1rem;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-icons .icons-column .experience-icon.puzzle {
+    position: relative;
+}
+
+.wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-icons .icons-column .experience-icon.puzzle i {
+    position: absolute;
+    top: 20px;
+    right: 180px;
 }
 
 .wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-icons .icons-column .experience-icon .circle-wrapper {
