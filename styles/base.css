@@ -250,7 +250,7 @@ header {
 
 .wrapper-of-wrapper-we-section .we-section-on-start-page-wrapper .we-section {
     flex: 1 1 0%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,7 +309,7 @@ header {
 
 .wrapper-of-wrapper-experience-section .wrapper-of-experience-section {
     display: flex;
-    
+
     width: 100%;
     max-width: 1250px;
     min-height: 700px;
@@ -429,7 +429,7 @@ header {
     color: whitesmoke;
 }
 
-/* FIFTH SECTION    QUALITY COMPANY SECTION */
+/* FIFTH SECTION    QUALITY COMPANY SECTION (HOME) */
 
 .quality-company-wrapper {
     display: flex;
@@ -478,10 +478,10 @@ header {
 
 .quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .logo-quality {
     padding: 20px;
-    
+
     font-size: 2rem;
     color: whitesmoke;
-    
+
     background-color: #1A58DF;
 
     border-radius: 50%;
@@ -489,10 +489,10 @@ header {
 
 .quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .logo-quality:hover {
     padding: 20px;
-    
+
     font-size: 2rem;
     color: rgb(27, 190, 255);
-    
+
     background-color: black;
 
     border-radius: 50%;
@@ -505,5 +505,75 @@ header {
 }
 
 .quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block .quality p {
-    
+    font-size: 1.1rem;
+}
+
+/* SIXTH SECTION    FINAL MESSAGE (HOME) */
+
+.final-mesagge-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 350px;
+
+    background-color: #1e49a5;
+}
+
+.final-mesagge-wrapper .final-mesagge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    width: 100%;
+    max-width: 1250px;
+}
+
+.final-mesagge-wrapper .final-mesagge .final-mesagge-block {
+    flex: 1 1 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+
+    color: whitesmoke;
+}
+
+.final-mesagge-wrapper .final-mesagge .final-mesagge-block:first-child h1 {
+    font-size: 2.5rem;
+
+    color: rgba(245, 245, 245, 0.466);
+}
+
+.final-mesagge-wrapper .final-mesagge .final-mesagge-block p {
+    font-size: 1.1rem;
+}
+
+.final-mesagge-wrapper .final-mesagge .final-mesagge-block h1 {
+    font-size: 1.8rem;
+}
+
+.final-mesagge-wrapper .final-mesagge .final-mesagge-block h2 {
+    font-size: 1.8rem;
+}
+
+.final-mesagge-wrapper .final-mesagge .final-mesagge-block a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 60px;
+
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    border: 5px solid rgba(27, 190, 255, 0.685);
+    border-radius: 50px;
 }
