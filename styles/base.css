@@ -90,10 +90,12 @@ header {
     display: flex;
     gap: 20px;
 
+    list-style: none;
+
     font-size: 1.2rem;
 }
 
-.menu-wrapper .menu-wrapper-max-size .sections a {
+.menu-wrapper .menu-wrapper-max-size .sections li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.897);
 
@@ -103,8 +105,47 @@ header {
     border-radius: 20px;
 }
 
-.menu-wrapper .menu-wrapper-max-size .sections a:hover {
+.menu-wrapper .menu-wrapper-max-size .sections li a:hover {
     color: rgb(129, 219, 255);
+}
+
+.menu-wrapper .menu-wrapper-max-size .sections .section-sub-menu {
+    position: relative;
+}
+
+.menu-wrapper .menu-wrapper-max-size .sections .section-sub-menu .sub-menu {
+    position: absolute;
+    top: 24px;
+
+    display: none;
+
+    list-style: none;
+
+    -webkit-box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.6);
+
+    border-radius: 20px;
+}
+
+.menu-wrapper .menu-wrapper-max-size .sections .section-sub-menu:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 0 10px 10px 10px;
+
+    width: 300px;
+
+    background-color: whitesmoke;
+}
+
+.menu-wrapper .menu-wrapper-max-size .sections .section-sub-menu:hover .sub-menu li {
+    padding: 5px;
+}
+
+.menu-wrapper .menu-wrapper-max-size .sections .section-sub-menu:hover .sub-menu li:first-child {
+    padding-top: 20px;
 }
 
 /* FIRST CONTENT SECTION (HOME) */
