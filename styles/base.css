@@ -185,15 +185,8 @@ header {
     height: 100%;
 }
 
-.first-content-section-wrapper .first-content-section .text-presentation {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-
-    color: whitesmoke;
-}
-
 .first-content-section-wrapper .first-content-section .text-presentation h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-transform: none;
     text-align: center;
 
