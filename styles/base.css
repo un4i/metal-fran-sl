@@ -168,8 +168,10 @@ header {
     width: 100%;
     height: 850px;
 
-    background-image: url(../first-content-section-items/background/black-golden-mandala.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../first-content-section-items/background/Sprinter-4.jpeg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .first-content-section-wrapper .first-content-section {
@@ -186,7 +188,7 @@ header {
 }
 
 .first-content-section-wrapper .first-content-section .text-presentation h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-transform: none;
     text-align: center;
 
@@ -206,10 +208,16 @@ header {
 
     text-decoration: none;
     font-size: 1.5rem;
-    color: #e0d17cda;
+    color: whitesmoke;
 
-    background-color: black;
+    background-color: #1A58DF;
     border-radius: 20px;
+}
+
+.first-content-section-wrapper .first-content-section .buttons-info-and-contact a:hover {
+    color: rgb(129, 219, 255);
+    background-color: black;
+    transition: 600ms;
 }
 
 /* SECOND CONTENT SECTION (HOME) */
@@ -221,7 +229,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-image: url(../info-sections/background/smoke.jpg);
+    background-image: url(../info-sections/background/Sprinter-1.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -249,7 +257,7 @@ header {
 
     text-align: center;
 
-    background-color: rgba(245, 245, 245, 0.911);
+    background-color: rgba(245, 245, 245, 0.808);
 }
 
 .wrapper-for-info-wrapper .info-wrapper .info-section i {
@@ -345,7 +353,7 @@ header {
     display: flex;
     justify-content: center;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../quarter-content-section-items/background/metal-frame-house.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../quarter-content-section-items/background/Sprinter.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
