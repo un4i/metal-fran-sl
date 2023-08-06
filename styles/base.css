@@ -188,13 +188,17 @@ header {
 }
 
 .first-content-section-wrapper .first-content-section .text-presentation h2 {
-    font-size: 1.3rem;
-    text-transform: none;
-    text-align: center;
-
     display: flex;
     justify-content: center;
 
+    padding: 20px;
+
+    background-color: rgba(43, 42, 42, 0.295);
+    border-radius: 25px;
+
+    font-size: 1.4rem;
+    text-transform: none;
+    text-align: center;
     color: whitesmoke;
 }
 
@@ -348,10 +352,12 @@ header {
 /* QUARTER CONTENT SECTION -Experience-section- (HOME) */
 
 .wrapper-of-wrapper-experience-section {
-    width: 100%;
-
     display: flex;
     justify-content: center;
+
+    padding: 50px 0;
+
+    width: 100%;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../quarter-content-section-items/background/Sprinter.jpeg");
     background-repeat: no-repeat;
@@ -381,12 +387,14 @@ header {
 }
 
 .wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-info {
-    width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 25px;
+
+    padding-bottom: 40px;
+
+    width: 100%;
 }
 
 .wrapper-of-wrapper-experience-section .wrapper-of-experience-section .experience-section .experience-section-info p {
@@ -650,6 +658,8 @@ header {
 }
 
 .footer-wrapper .footer {
+    flex: 1 1 0%;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -692,7 +702,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     gap: 10px;
 
     width: 100%;
@@ -722,7 +732,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     gap: 10px;
 
     width: 100%;
@@ -748,10 +758,6 @@ header {
     color: whitesmoke;
 }
 
-.footer-wrapper .footer .footer-map {
-    width: 100%;
-}
-
 .footer-wrapper .footer-copyright {
     display: flex;
     justify-content: space-between;
@@ -772,11 +778,15 @@ header {
     gap: 10px;
 }
 
+.footer-wrapper .footer-copyright div img {
+    height: 25px;
+}
+
 .footer-wrapper .footer-copyright ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 
     list-style: none;
 }
