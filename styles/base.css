@@ -519,9 +519,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 16px;
+
+    width: 100%;
 }
 
 .quality-company-wrapper .quality-company-section .quality-blocks .quality-block-wrapper .quality-block {
+    flex: 1 1 0%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
