@@ -796,3 +796,125 @@ header {
 
     color: whitesmoke;
 }
+
+/* ------------------ ABOUT US PAGE --------------- */
+
+.about-us-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../about-us-page-things/top-background/Sprinter-11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.about-us-wrapper .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    padding: 125px 0px;
+
+    width: 100%;
+    max-width: 1250px;
+
+    color: whitesmoke;
+}
+
+.about-us-wrapper .about-us h2 {
+    padding: 5px 10px;
+
+    border: 5px #1A58DF solid;
+
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.about-us-wrapper .about-us h1 {
+    font-size: 3.5rem;
+}
+
+.about-us-wrapper .about-us div {
+    padding: 5px 10px;
+
+    border: 2px whitesmoke solid;
+
+    font-size: 0.8rem;
+}
+
+.about-us-wrapper .about-us div a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.about-us-wrapper .about-us div a:hover {
+    text-decoration: underline;
+}
+
+/* ABOUT US SUMMARY SECTION */
+
+.about-us-summary-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.about-us-summary-wrapper .about-us-summary {
+    flex: 1 1 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 100px 0;
+
+    width: 100%;
+    max-width: 1250px;
+
+    border-bottom: 5px #1A58DF solid;
+}
+
+.about-us-summary-wrapper .about-us-summary div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+
+    line-height: 2;
+}
+
+.about-us-summary-wrapper .about-us-summary div h1 {
+    font-size: 1.5rem;
+}
+
+.about-us-summary-wrapper .about-us-summary div p {
+    font-size: 1rem;
+}
+
+.about-us-summary-wrapper .about-us-summary div ul li {
+    padding: 8px 0;
+
+    list-style: none;
+}
+
+.about-us-summary-wrapper .about-us-summary div ul li i {
+    color: #1A58DF;
+}
+
+.about-us-summary-wrapper .about-us-summary .about-us-summary-img-wrapper img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
