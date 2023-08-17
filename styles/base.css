@@ -879,8 +879,6 @@ header {
 
     width: 100%;
     max-width: 1250px;
-
-    border-bottom: 5px #1A58DF solid;
 }
 
 .about-us-summary-wrapper .about-us-summary div {
@@ -917,4 +915,63 @@ header {
     align-items: center;
 
     width: 100%;
+}
+
+/* ABOUT US SEE SERVICES SECTION */
+
+.see-services-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-image: url(../about-us-page-things/about-us-see-services-background/industria-metalurgia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.see-services-wrapper .see-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    padding: 80px 50px;
+    margin: 200px 0;
+
+    width: 100%;
+    max-width: 800px;
+
+    background-color: rgba(0, 0, 0, 0.534);
+
+    text-align: center;
+    color: whitesmoke;
+}
+
+.see-services-wrapper .see-services h1 {
+    font-size: 3rem;
+    border-top: 5px #1A58DF solid;
+}
+
+.see-services-wrapper .see-services p {
+    font-size: 1rem;
+}
+
+.see-services-wrapper .see-services a {
+    padding: 10px 50px;
+
+    background-color: #1A58DF;
+    border-radius: 25px;
+
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+.see-services-wrapper .see-services a:hover {
+    background-color: black;
+    color: rgb(27, 190, 255);
+    transition: 500ms;
 }
